@@ -1,0 +1,288 @@
+{
+  "_meta": {
+    "version": "0.1-draft",
+    "note": "STARTING DRAFT. Every value here should be checked and corrected against your own experience before you rely on it. The zones run inner corner to outer corner across six sections of the lash line.",
+    "zones": ["inner corner", "inner", "inner mid", "outer mid", "outer", "outer corner"],
+    "length_unit": "mm"
+  },
+
+  "eye_shapes": {
+    "hooded": {
+      "identify": "A fold of skin from the brow bone covers part or all of the mobile lid when the eye is open. Often the lash line disappears when looking straight ahead.",
+      "goal": "Get length visible below the hood rather than pushing it into the fold. Lift without hiding.",
+      "curls_best": ["M", "L", "L+"],
+      "curls_avoid": ["D", "DD"],
+      "curls_avoid_reason": "Strong curls point up into the hood and vanish, and can brush the skin and feel prickly.",
+      "styles_best": ["open_eye", "kitten", "cat"],
+      "styles_avoid": ["doll"],
+      "styles_avoid_reason": "Doll puts maximum length in the centre, which is exactly where the hood covers most.",
+      "length_bias": "Shift maximum length slightly outwards from centre. Keep inner third short.",
+      "adjustment_mm": [0, 0, 0, 1, 1, 0],
+      "notes": [
+        "Check the map with the client's eyes OPEN and looking forward, not just closed. Hooded sets look completely different open.",
+        "Flatter curls with more length usually read better than shorter lashes with a strong curl.",
+        "If the hood is heavy, avoid volume fans that are too wide, they add depth that gets lost."
+      ]
+    },
+
+    "almond": {
+      "identify": "Visible crease, slight upward tilt at the outer corner, iris touches top and bottom lid lightly. The most balanced shape.",
+      "goal": "Enhance what is already balanced. Almost any style works.",
+      "curls_best": ["C", "CC", "D"],
+      "curls_avoid": [],
+      "curls_avoid_reason": "",
+      "styles_best": ["natural", "cat", "kitten", "doll", "wispy"],
+      "styles_avoid": [],
+      "styles_avoid_reason": "",
+      "length_bias": "No correction needed. Follow the client's desired effect.",
+      "adjustment_mm": [0, 0, 0, 0, 0, 0],
+      "notes": [
+        "Use this shape to practise styles, since it will not fight you.",
+        "Let the desired effect drive the map entirely here."
+      ]
+    },
+
+    "round": {
+      "identify": "Visible white above or below the iris. Eye appears large and circular rather than long.",
+      "goal": "Elongate. Make the eye read longer rather than wider.",
+      "curls_best": ["C", "CC"],
+      "curls_avoid": ["D", "DD"],
+      "curls_avoid_reason": "Strong curl in the centre opens the eye further and exaggerates the roundness.",
+      "styles_best": ["cat", "kitten"],
+      "styles_avoid": ["doll", "open_eye"],
+      "styles_avoid_reason": "Both push length into the centre, which widens an already round eye.",
+      "length_bias": "Keep the centre restrained, extend the outer third.",
+      "adjustment_mm": [0, 0, -0.5, 0.5, 1, 1],
+      "notes": [
+        "Extending slightly past the natural outer corner works well here, but stay within what the natural lashes can support.",
+        "A flatter curl at the outer corner reads as longer than a strong curl at the same length."
+      ]
+    },
+
+    "downturned": {
+      "identify": "The outer corner sits lower than the inner corner. Drawing a line between the two corners slopes downwards.",
+      "goal": "Lift the outer corner so the eye reads level or slightly tilted up.",
+      "curls_best": ["D", "CC", "M at outer corner"],
+      "curls_avoid": ["J", "B", "long L at the very outer corner"],
+      "curls_avoid_reason": "Flat curls at the outer corner follow the natural downward angle and drag the eye down further.",
+      "styles_best": ["kitten", "open_eye", "squirrel"],
+      "styles_avoid": ["cat"],
+      "styles_avoid_reason": "A true cat eye with maximum length at the far outer corner emphasises the downward slope.",
+      "length_bias": "Peak length just before the outer corner, then step DOWN into the corner itself.",
+      "adjustment_mm": [0, 0, 0.5, 1, 0, -1],
+      "notes": [
+        "This is the shape most often mapped wrongly. The instinct is to go long at the outer corner, and it makes the droop worse.",
+        "Stronger curl in the last few millimetres lifts far better than extra length does.",
+        "Squirrel style exists for exactly this problem: peak, then drop."
+      ]
+    },
+
+    "upturned": {
+      "identify": "Outer corner sits higher than the inner corner. Naturally lifted appearance.",
+      "goal": "Balance. The lift is already there, so avoid adding more.",
+      "curls_best": ["C", "CC"],
+      "curls_avoid": ["DD at outer corner"],
+      "curls_avoid_reason": "Adds lift where there is already plenty and can look harsh or surprised.",
+      "styles_best": ["natural", "doll", "open_eye"],
+      "styles_avoid": ["cat"],
+      "styles_avoid_reason": "Exaggerates an existing upward tilt into something severe.",
+      "length_bias": "Build the centre and inner half so the eye reads balanced rather than swept.",
+      "adjustment_mm": [0, 0.5, 0.5, 0, 0, -0.5],
+      "notes": [
+        "One of the few shapes where a doll map genuinely suits.",
+        "Watch the outer corner does not overshoot the natural lash line."
+      ]
+    },
+
+    "monolid": {
+      "identify": "Little or no visible crease on the mobile lid. The lid sits flat over the eye.",
+      "goal": "Create visible depth and lift without the lashes pressing against the lid.",
+      "curls_best": ["M", "L", "D if the lashes point downwards"],
+      "curls_avoid": ["J", "B"],
+      "curls_avoid_reason": "Flat curls stay at lid level and are barely visible from the front.",
+      "styles_best": ["open_eye", "kitten", "cat"],
+      "styles_avoid": [],
+      "styles_avoid_reason": "",
+      "length_bias": "Longer overall than you would use elsewhere, since length is what becomes visible from the front.",
+      "adjustment_mm": [0, 0.5, 1, 1, 0.5, 0],
+      "notes": [
+        "L and M curls have a straight base and a lifted tip, so they clear the lid instead of resting on it.",
+        "Check the set from the front, not the side. From the side it may look excessive when it reads perfectly head on.",
+        "Natural lashes often point downwards here, so curl matters more than length."
+      ]
+    },
+
+    "deep_set": {
+      "identify": "The eye sits further back in the socket with a prominent brow bone above it.",
+      "goal": "Bring the eye forward. Avoid anything that gets lost in shadow.",
+      "curls_best": ["C", "CC", "M"],
+      "curls_avoid": ["D", "DD"],
+      "curls_avoid_reason": "Strong curl sends the lash straight up towards the brow bone, where it is hidden and can touch.",
+      "styles_best": ["open_eye", "natural", "kitten"],
+      "styles_avoid": ["heavy doll"],
+      "styles_avoid_reason": "Dense centre length reads as shadow rather than definition on a deep set eye.",
+      "length_bias": "Moderate, even length. Prioritise curl direction over length.",
+      "adjustment_mm": [0, 0, 0.5, 0.5, 0, 0],
+      "notes": [
+        "Always check clearance against the brow bone before committing to the map.",
+        "Lighter, wispier sets read better than dense ones here."
+      ]
+    },
+
+    "protruding": {
+      "identify": "The eyeball sits forward, visible as a curve under a closed lid.",
+      "goal": "Soften and reduce the sense of projection.",
+      "curls_best": ["C", "B", "M"],
+      "curls_avoid": ["D", "DD"],
+      "curls_avoid_reason": "Strong curl pushed forward on a prominent eye exaggerates the projection and can look startled.",
+      "styles_best": ["cat", "kitten", "natural"],
+      "styles_avoid": ["doll", "open_eye"],
+      "styles_avoid_reason": "Centre-heavy maps draw the eye to the most prominent point.",
+      "length_bias": "Shift weight outwards, keep the centre modest.",
+      "adjustment_mm": [0, 0, -0.5, 0.5, 1, 0.5],
+      "notes": [
+        "Flatter curls sit closer to the lid line and flatten the profile visually.",
+        "Longer lengths are usually fine here, it is curl strength that causes problems."
+      ]
+    },
+
+    "close_set": {
+      "identify": "The gap between the eyes is less than one eye width.",
+      "goal": "Draw attention outwards to create the illusion of space.",
+      "curls_best": ["C", "CC", "D at outer"],
+      "curls_avoid": ["strong curl at the inner corner"],
+      "curls_avoid_reason": "Emphasis at the inner corner pulls the eyes visually closer together.",
+      "styles_best": ["cat", "kitten"],
+      "styles_avoid": ["doll"],
+      "styles_avoid_reason": "Centre and inner weight closes the gap further.",
+      "length_bias": "Keep the inner third noticeably short, build strongly through the outer third.",
+      "adjustment_mm": [-1, -0.5, 0, 0.5, 1, 1],
+      "notes": [
+        "This is a spacing correction, so layer it on top of the eye shape rule rather than replacing it."
+      ]
+    },
+
+    "wide_set": {
+      "identify": "The gap between the eyes is more than one eye width.",
+      "goal": "Bring focus inwards to visually close the gap.",
+      "curls_best": ["C", "CC", "D at inner mid"],
+      "curls_avoid": ["heavy outer corner extension"],
+      "curls_avoid_reason": "Pulling focus outwards widens the gap further.",
+      "styles_best": ["doll", "open_eye", "natural"],
+      "styles_avoid": ["cat"],
+      "styles_avoid_reason": "A strong outer sweep exaggerates the distance between the eyes.",
+      "length_bias": "Start length earlier, keep the outer corner restrained.",
+      "adjustment_mm": [0.5, 1, 0.5, 0, -0.5, -0.5],
+      "notes": [
+        "Layer this on top of the eye shape rule as a spacing correction."
+      ]
+    }
+  },
+
+  "styles": {
+    "natural": {
+      "description": "Follows the natural lash line, slight peak just past centre.",
+      "profile": [7, 9, 10, 11, 10, 8],
+      "best_for": "First time clients, anyone wanting an undone look, professional settings."
+    },
+    "doll": {
+      "description": "Maximum length in the centre, opens and rounds the eye.",
+      "profile": [8, 10, 12, 12, 10, 8],
+      "best_for": "Almond, upturned and wide set eyes. Anyone wanting a wide, open look."
+    },
+    "cat": {
+      "description": "Length builds continuously to the outer corner. Elongating and lifting outwards.",
+      "profile": [7, 8, 9, 11, 12, 13],
+      "best_for": "Round, close set and protruding eyes. Anyone wanting elongation."
+    },
+    "kitten": {
+      "description": "A softened cat eye. Builds outwards but peaks before the very corner.",
+      "profile": [7, 9, 10, 11, 12, 11],
+      "best_for": "Almost universal. The safest choice when unsure, and good on downturned eyes."
+    },
+    "squirrel": {
+      "description": "Peaks at the outer mid section then steps down into the corner.",
+      "profile": [8, 9, 11, 12, 11, 9],
+      "best_for": "Downturned eyes specifically. Lifts without dragging the corner down."
+    },
+    "open_eye": {
+      "description": "Short inner, length concentrated just inside the outer third, shorter at the very corner.",
+      "profile": [7, 9, 11, 12, 11, 10],
+      "best_for": "Hooded, monolid and deep set eyes. Maximises visible lift."
+    },
+    "wispy": {
+      "description": "Alternating long and short across the line for a textured, fluffy finish.",
+      "profile": [8, 10, 12, 10, 12, 9],
+      "best_for": "Any shape. Adds texture and hides sparse areas well.",
+      "notes": "The profile here is indicative. In practice alternate spikes and shorter fill lashes across the whole line."
+    }
+  },
+
+  "natural_lash_conditions": {
+    "strong_healthy": {
+      "identify": "Thick, dark, springy natural lashes that hold their shape.",
+      "max_added_mm": 5,
+      "max_weight": "Up to 0.07 classic, or volume fans up to 8D at 0.03.",
+      "notes": "You have room to be ambitious. Still cap total length at what the natural lash can carry."
+    },
+    "fine_weak": {
+      "identify": "Thin, pale, soft lashes that bend easily under light pressure.",
+      "max_added_mm": 2,
+      "max_weight": "0.03 to 0.05 classic, or light volume fans at 0.03 maximum.",
+      "notes": "Weight matters far more than length here. A long light fan is safer than a short heavy classic."
+    },
+    "sparse": {
+      "identify": "Visible gaps along the lash line, low lash count.",
+      "max_added_mm": 3,
+      "max_weight": "Volume fans preferred, to fill visually without loading individual lashes.",
+      "notes": "Volume or wispy styles disguise gaps. Classic sets will show every gap."
+    },
+    "straight_downward": {
+      "identify": "Natural lashes grow outwards or downwards with little natural curl.",
+      "max_added_mm": 3,
+      "max_weight": "Standard.",
+      "notes": "Curl choice dominates everything here. Go one curl stronger than you otherwise would, or use L and M curls with their straight base for a better bond."
+    },
+    "already_curled": {
+      "identify": "Natural lashes already curl strongly upwards.",
+      "max_added_mm": 4,
+      "max_weight": "Standard.",
+      "notes": "Going stronger than the natural curl creates a gap at the base and a poor bond. Match or go slightly flatter."
+    },
+    "oily_lids": {
+      "identify": "Visible shine on the lid, history of early shedding.",
+      "max_added_mm": 3,
+      "max_weight": "Lighter is better, retention is the limiting factor rather than strength.",
+      "notes": "Not a mapping issue as such, but flag it. Recommend a lash cleanser and a shorter infill interval."
+    }
+  },
+
+  "desired_effects": {
+    "natural": {"style_preference": ["natural", "kitten"], "length_modifier_mm": -1},
+    "lifted": {"style_preference": ["open_eye", "squirrel", "kitten"], "length_modifier_mm": 0},
+    "elongated": {"style_preference": ["cat", "kitten"], "length_modifier_mm": 0.5},
+    "wide_open": {"style_preference": ["doll", "open_eye"], "length_modifier_mm": 0},
+    "dramatic": {"style_preference": ["cat", "doll", "wispy"], "length_modifier_mm": 1.5},
+    "textured": {"style_preference": ["wispy"], "length_modifier_mm": 0.5}
+  },
+
+  "curl_reference": {
+    "J": "Barely any curl. Rarely used now, occasionally for the very inner corner or for men.",
+    "B": "Slight natural curl. Good on already curled lashes or protruding eyes.",
+    "C": "The standard. Suits most eyes and most natural lash types.",
+    "CC": "Between C and D. More lift without the full drama of a D.",
+    "D": "Strong curl. Lifts downward lashes and downturned corners. Can vanish on hooded eyes.",
+    "DD": "Very strong. Use sparingly and only on strong natural lashes.",
+    "L": "Straight base, sharp upward tip. Made for hooded and monolid eyes.",
+    "M": "Between L and D. Straight base with a rounder lift. Very versatile on hooded eyes."
+  },
+
+  "safety_rules": [
+    "Never exceed the natural lash by more than the max_added_mm for that lash condition. Overloading causes premature shedding and damage.",
+    "Weight matters more than length. A heavy short lash damages more than a light long one.",
+    "One extension per natural lash. Never stick extensions to each other or to the skin.",
+    "If the client reports itching, swelling or redness, stop and refer them to a GP. Do not attempt to diagnose an adhesive allergy yourself.",
+    "Recent eye surgery, an active eye infection, or chemotherapy means no set until cleared by a doctor.",
+    "Always patch test a new client before a full set."
+  ]
+}
